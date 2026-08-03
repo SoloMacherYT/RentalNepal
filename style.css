@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #fdf0d5;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav{
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+.register{
+    gap: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    align-content: center;
+    border-radius: 8px;
+}
+.login{
+    background-color: #c1121f;
+    padding: 5px 10px 9px;
+}
+.login:hover{
+    background-color: #780000;
+}
+
+
+.signup{
+    background-color: #669bbc;
+    padding: 5px 10px 9px;
+}
+.signup:hover{
+    background-color: #003049;
+}
+
+/*Main content and Sections Start here*/
+.hero{
+    color: #99582a;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.hero p{
+    margin:15px 0 0 0 ;
+}
+.hero div{
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+.hero a{
+    background-color: #c1121f;
+    padding: 5px 10px 9px;
+}
+.hero .list{
+    background-color: #669bbc;
+}
+
+/*Next sections starts herereeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
+.trust .dtrust{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.trust .dtrust div{
+    background-color: #e9d8a6;
+    padding: 10px;
+}
+
+
+/*Promotion Section Starts here*/
+.promoted{
+    margin: 25px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.promoted a{
+    margin-top: 20px;
+    background-color: #c1121f;
+    padding: 5px 10px 9px;
+}
+
+/*How to use Section Starts hereeeeeeeeee*/
+.howto h1{
+    margin-top: 17px;
+    display: flex;
+    justify-content: center;
+}
+.howto .container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 0;
+}
+.howto .container div{
+    padding: 20px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+.howto .container p{
+    margin:5px 0;
+}
+.howto a{
+    background-color: #669bbc;
+    padding: 5px 10px 9px;
+}
+.howtolandlord p{
+    margin-bottom: 25px;
+}
+
+/*FAQ section tesai theak xa*/
+.faqs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.faqs details{
+    margin: 10px 0;
+}
+
+
+/*Section of Ready for your next home*/
+.nexthome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 45px;
+}
+.nexthome a{
+    margin-top: 15px;
+    background-color: #c1121f;
+    padding: 5px 10px 9px;
+}
+
+/*Footer Starts Here!!!!!*/
+footer .bind{
+    display: flex;
+    gap: 30px;
+}
+footer .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+footer .bind .colunm{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+footer .card{
+    max-width: 500px;
+    margin: 30px;
+    padding: 15px;
+    background: #ee9b00;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 5px;
+    transform: rotate(-8deg);
+}
+footer .card a:hover{
+    text-decoration: underline;
+}
+footer .special{
+    font-family: cursive;
+}
+footer .name{
+    margin: 30px ;
+}
+footer .name h1{
+    font-size: 50px;
+}
+footer .name p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer .last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 60px;
+    margin: 0 20px 15px;
+}
