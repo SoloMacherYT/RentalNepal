@@ -162,12 +162,14 @@ a{
 footer .bind{
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
 }
 footer .row{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 60px;
+    flex-wrap: wrap;
 }
 footer .bind .colunm{
     display: flex;
